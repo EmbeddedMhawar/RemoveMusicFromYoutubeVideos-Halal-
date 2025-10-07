@@ -26,7 +26,7 @@ VIDEO_URL = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
 
 **3. Export Your Cookies from YouTube**
 - Use: [Get cookies.txt LOCALLY by kairi003](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) *(safe, open-source, privacy-respecting)*
-- Visit [YouTube](https://www.youtube.com) while logged in, click the extension icon, and export cookies as a `.txt` file (e.g. `www.youtube.com_cookies.txt`)
+- Visit [YouTube](https://www.youtube.com) while logged in, click the extension icon, and export cookies as a `.txt` file (e.g. `www.youtube.com_cookies.txt`) [just click the export button]
 - This enables yt-dlp in Colab to authenticate with your account.
 
 ***
