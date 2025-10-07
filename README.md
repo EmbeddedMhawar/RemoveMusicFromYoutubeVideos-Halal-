@@ -1,7 +1,3 @@
-Here’s an **appealing, clean, and readable README.md** with clear sections, bullet points, bolding, code blocks, and a prominent Colab button:
-
-***
-
 # 🎓 Make Educational YouTube Videos **Halal** (Remove Music)
 
 Process YouTube videos in **Google Colab** to remove background music and keep only vocals for personal, halal, educational use.  
@@ -90,9 +86,3 @@ The notebook will use your cookies, take the video/audio, extract vocals only, m
 ***
 
 *Reviewed: October 2025 – based on "Get cookies.txt LOCALLY" and latest halal guidance.*
-
-***
-
-Let me know if you want this even more compact, translated, or with extra links!
-
-[1](https://automatic-cod-q7vwxqrj54pxhjj5.github.dev/)
