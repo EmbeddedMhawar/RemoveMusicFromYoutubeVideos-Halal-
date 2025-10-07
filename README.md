@@ -16,18 +16,18 @@ Click the badge above to open the script on Google Colab.
 
 ***
 
-**2. Export Your Cookies from YouTube**
-- Use: [Get cookies.txt LOCALLY by kairi003](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) *(safe, open-source, privacy-respecting)*
-- Visit [YouTube](https://www.youtube.com) while logged in, click the extension icon, and export cookies as a `.txt` file (e.g. `www.youtube.com_cookies.txt`)
-- This enables yt-dlp in Colab to authenticate with your account.
-
-***
-
-**3. Set Your YouTube Video URL In The Script**
+**2. Set Your YouTube Video URL In The Script**
 
 ```python
 VIDEO_URL = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
 ```
+
+***
+
+**3. Export Your Cookies from YouTube**
+- Use: [Get cookies.txt LOCALLY by kairi003](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) *(safe, open-source, privacy-respecting)*
+- Visit [YouTube](https://www.youtube.com) while logged in, click the extension icon, and export cookies as a `.txt` file (e.g. `www.youtube.com_cookies.txt`)
+- This enables yt-dlp in Colab to authenticate with your account.
 
 ***
 
