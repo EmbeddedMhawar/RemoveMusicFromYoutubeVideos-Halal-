@@ -18,20 +18,18 @@ Original file is located at
 from google.colab import files
 print("Upload your cookies file from browser now (e.g. www.youtube.com_cookies.txt)")
 uploaded = files.upload()
-
-# Automatically select the uploaded cookie file
 COOKIE_FILENAME = next((x for x in uploaded if x.endswith('.txt')), None)
 
 # ==============================
-# 3. Set YouTube Video URL
+# 3. Paste your YouTube Video URL here
 # ==============================
-VIDEO_URL = "https://www.youtube.com/watch?v=YudpU58uYuM"
+VIDEO_URL = input("Paste your YouTube video URL here, then press Enter: ")
+print(f"Your selected YouTube URL: {VIDEO_URL}")
 
 # ==============================
 # 4. Download audio and video using cookies + quoted filenames
 # ==============================
 if COOKIE_FILENAME:
-    # Note: always wrap the cookie filename in quotes for shell commands!
     cookie_param = f'--cookies "{COOKIE_FILENAME}"'
 else:
     cookie_param = ""
@@ -49,30 +47,27 @@ else:
 # 6. Merge Vocals with Original Video (replace soundtrack with vocals only)
 # ==============================
 !ffmpeg -y -i video.mp4 -i separated/htdemucs/audio/vocals.wav -c:v copy -map 0:v:0 -map 1:a:0 -shortest output_video_vocals_only.mp4
+
 # ==============================
 # 6b. Remove temporary files after merging (optional, for privacy/space)
 # ==============================
 import os
-
-files_to_remove = ["audio.m4a","audio.wav","video.mp4"]
-
-# Demucs creates several folders and files; you can also clean those up if you want (optional):
-folders_to_remove = ["separated"] # Demucs output folder
+files_to_remove = ["audio.m4a", "audio.wav", "video.mp4"]
+folders_to_remove = ["separated"]
 
 for fname in files_to_remove:
     try:
         os.remove(fname)
     except Exception:
-        pass  # ignore if file doesn't exist
+        pass
 
 for folder in folders_to_remove:
     if os.path.isdir(folder):
         import shutil
         shutil.rmtree(folder, ignore_errors=True)
 
-
 # ==============================
 # 7. Display the video
 # ==============================
-from IPython.display import  Video
-Video("output_video_vocals_only.mp4", embed=True, width=1200)
+from IPython.display import Video
+Video("output_video_vocals_only.mp4", embed=True, width=1920)  # you can set width as you prefer
