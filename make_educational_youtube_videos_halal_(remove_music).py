@@ -35,7 +35,7 @@ else:
     cookie_param = ""
 
 !yt-dlp {cookie_param} -f bestaudio[ext=m4a] -o audio.m4a "{VIDEO_URL}"
-!yt-dlp {cookie_param} -f bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4 -o video.mp4 "{VIDEO_URL}"
+!yt-dlp {cookie_param} -f 'bv*[height=1080][ext=mp4]+ba[ext=m4a]/mp4' -o video.mp4 "{VIDEO_URL}"
 !ffmpeg -y -i audio.m4a audio.wav
 
 # ==============================
