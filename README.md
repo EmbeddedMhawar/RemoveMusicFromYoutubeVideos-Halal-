@@ -9,8 +9,6 @@ Ideal for learners who prefer to avoid music in knowledge content, following Isl
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FVzFppcTwwIfaPxMehNdiQvhrJ02oWrk#scrollTo=8hi6wehDQmLV)
 
-Here’s a more readable and concise markdown format for your instructions. This uses clear code blocks, bold steps, enhanced structure, and compact language.
-
 ***
 
 ## 📋 **How to Use**
