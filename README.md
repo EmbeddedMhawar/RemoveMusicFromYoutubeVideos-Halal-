@@ -7,7 +7,7 @@ Ideal for learners who prefer to avoid music in knowledge content, following Isl
 
 ## 🚀 **Quick Start**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FVzFppcTwwIfaPxMehNdiQvhrJ02oWrk#scrollTo=8hi6wehDQmLV)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
 ***
 
