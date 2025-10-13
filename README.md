@@ -11,9 +11,20 @@ Ideal for learners who prefer to avoid music in knowledge content, following Isl
 
 ***
 
-## 📋 **How to Use**
+## How to Use This Script in Google Colab
 
-Follow these steps in the Colab notebook:
+The easiest way to use this script is to copy and paste the contents of `make_educational_youtube_videos_halal_(remove_music).py` into a cell in your own Colab notebook.
+
+**Recommended:** If you plan to use this script often, paste it into the first (welcome) cell of your Colab notebook for quick access.
+
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Create a new notebook.
+3. Copy all the code from `make_educational_youtube_videos_halal_(remove_music).py`.
+4. Paste it into a cell (preferably the first cell) in your notebook.
+5. Run the cell to use the script.
+
+---
+The previously provided Colab link is no longer available. Please use the instructions above.
 
 ***
 
